@@ -4,6 +4,7 @@
 
      Source: U.S. Energy Information Administration (EIA)
        API - Electric Power Operations (Daily and Hourly) https://www.eia.gov/opendata/browser/electricity/rto
+
        API documentation: https://www.eia.gov/opendata/documentation.php
 
      Frequency: Hourly, updated daily
@@ -26,7 +27,7 @@
        Wind speed
        Severe weather indicators
 
-2. What are your research question(s)?
+3. What are your research question(s)?
    
     Phase 1 Research Questions (Using Just EIA Data):
        How does the electricity generation mix change during periods of unusually high or low demand?
@@ -44,15 +45,15 @@
        How does grid behavior before, during, and after major weather events compare to typical conditions?
          Using weather events as reference points, how quickly does the grid respond and recover?
 
-3. What's the link to your notebook?
+4. What's the link to your notebook?
   
     https://github.com/advanced-computing/purple-flamingo/pull/1
 
-4. Here’s a recent graph showing a sharp increase in coal usage in New England during Winter Storm Fern just over a week ago, using the EIA hourly grid monitor, sourced from the “Energy Bad Boys” substack:
+5. Here’s a recent graph showing a sharp increase in coal usage in New England during Winter Storm Fern just over a week ago, using the EIA hourly grid monitor, sourced from the “Energy Bad Boys” substack:
 
       <img width="1339" height="664" alt="Screenshot 2026-02-06 at 14 14 42" src="https://github.com/user-attachments/assets/c1417ac8-6e5d-41e1-aa7e-edbef41235d6" />
 
-5. What are your known unknowns?
+6. What are your known unknowns?
 
     Which recent adverse grid or events will be cleanest and most interesting to analyze?
     Which ISO/RTO(s) will be most interesting to focus on that have consistent, standard data?
@@ -60,7 +61,7 @@
     Whether fuel type and grid load variables are reported consistently?
     Whether weather variables (e.g. temperature, precipitation, snow) variables are consistently reported in a standardized way across weather stations?
 
-6. What challenges do you anticipate?
+7. What challenges do you anticipate?
 
      Managing High-Frequency, High-Volume Time Series Data: Given the data volume of both datasets we are contemplating, we will need to:
        Spend time narrowing down the project scope to specific region(s) and event(s). 
